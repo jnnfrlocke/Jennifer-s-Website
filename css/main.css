@@ -1,0 +1,179 @@
+body {
+    background-color: #9dd7db;
+    margin: 0 50px 0 50px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #2f4142;
+    font-weight: bold;
+    font-size: 40px;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    color: #2f4142;
+    font-size: 36px;
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #2f4142;
+    font-size: 24px;
+    font-variant: small-caps;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #2f4142;
+    font-size: 18px;
+    font-variant: small-caps;  
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    /* width: 80%;
+    margin: auto;
+    line-height: 1.2em; */
+}
+
+a {
+    text-decoration: none;
+    color: #2f4142;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/***** HEADER *****/
+
+header {
+    height: 175px;
+    border: 1px solid #2f4142;
+    background-image: url("../img/header-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+    margin-top: 10px; 
+}
+
+header h1 {
+    display: inline-block;
+    line-height: 40px;
+}
+
+header span {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #2f4142;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+    border-bottom: 1px solid #2f4142;
+    width: 80%;
+    margin: auto;
+}
+
+
+/***** WRITING SECTION *****/
+
+#writing {
+    /* border-top: 1px solid #2f4142; */
+    border-bottom: 1px solid #2f4142;
+    width: 80%;
+    margin: auto;
+}
+
+
+/***** RESUME *****/
+
+#resume {
+    /* border-top: 1px solid #2f4142; */
+    border-bottom: 1px solid #2f4142;
+    width: 80%;
+    margin: auto;
+}
+
+
+/***** MORE *****/
+
+#more {
+    /* border-top: 1px solid #2f4142; */
+    border-bottom: 1px solid #2f4142;
+    width: 80%;
+    margin: auto;
+}
+
+
+/***** FOOTER *****/
+
+footer {
+    width: 80%;
+    margin: auto;
+}
+
+#credits {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #2f4142;
+    text-align: right;
+}
+
+#links {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #2f4142;
+    text-align: center;
+}
+
+
+/***** WRITIING PAGE *****/
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.blog_link {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+
+/***** ACADEMIC PAGE *****/
+
+.writing_links {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+    font-weight: light;
+    font-variant: normal;
+}
